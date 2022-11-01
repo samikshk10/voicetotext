@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="button" id="btn" onclick="recognition.start()" >Convert  Voice To Text</button>
+
+    <div  class="container"> 
+        <p id="display">
+
+        </p>
+    </div>
+
+    <div id="speakdisplay">
+        <i class="fa-solid fa-volume-high fa-2x"></i>
+        <span>
+            Please Speak Now    
+        </span>
+    </div>
+
+    <button id="copybtn" class="button"  >
+        Copy Text
+    </button>
+
+
+    <div id="copymsg">
+        Text is copied!!
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
